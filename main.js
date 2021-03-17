@@ -21,7 +21,9 @@ const clock = {
         }
     },
     mounted() {
-        this.updateClock();
+        // this.updateClock();
+
+        setInterval(this.updateClock(), 1000);
     }
 };
 
