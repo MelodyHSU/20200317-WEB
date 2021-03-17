@@ -1,0 +1,15 @@
+body {
+  height: 100vh;
+  background: radial-gradient(#1aa99b, #0d2f62);
+}
+
+#clock {
+  font-size: 80px;
+  color: #56ddff;
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 0 0 10px #000;
+  height: 100vh;
+  line-height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
