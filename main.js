@@ -7,10 +7,16 @@ const clock = {
             m: 99,
             s: 99
         }
+    },
+
+    methods: {
+        updateClock() {
+            
+        }
     }
 };
 
-vue.createApp(clock).mount("#clock");
+Vue.createApp(clock).mount("#clock");
 
 
 
