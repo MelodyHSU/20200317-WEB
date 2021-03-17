@@ -11,8 +11,13 @@ const clock = {
 
     methods: {
         updateClock() {
+            var data = new Date();
+            console.log(date);
             
         }
+    },
+    mounted() {
+        this.updateClock();
     }
 };
 
