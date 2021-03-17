@@ -11,8 +11,12 @@ const clock = {
 
     methods: {
         updateClock() {
-            var data = new Date();
+            var date = new Date();
             console.log(date);
+            this.h = date.getHours();
+            this.m = date.getMinutes();
+            this.s = date.getSeconds();
+
             
         }
     },
